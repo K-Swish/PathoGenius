@@ -1,12 +1,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PathoGenius - Filoviridae Ebolavirus Genome Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2a9df4;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 0.5em 0 0;
+            font-size: 1.2em;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2em auto;
+            padding: 0 1em;
+        }
+
+        .section {
+            background-color: white;
+            padding: 2em;
+            margin-bottom: 1em;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #2a9df4;
+        }
+
+        footer {
+            background-color: #2a9df4;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+        }
+    </style>
 </head>
 <body>
+
+<header>
     <h1>PathoGenius</h1>
-    <p>what's poppin b</p>
+    <p>Filoviridae Ebolavirus Genome Analysis and Database Installer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#analysis">Genome Analysis Database</a>
+    <a href="#installer">Database Installer</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="section">
+        <h2>About PathoGenius</h2>
+        <p>PathoGenius is a cutting-edge platform dedicated to the study and analysis of the Filoviridae family, with a focus on Ebolavirus genomes. Researchers can explore our powerful genome analysis database and use our intuitive installer to set up local databases for in-depth study.</p>
+    </section>
+
+    <section id="analysis" class="section">
+        <h2>Genome Analysis Database</h2>
+        <p>Our genome analysis database provides detailed insights into Ebolavirus genomes, including annotations, synteny maps, and sequence alignments.</p>
+        <button onclick="window.location.href='jbrowse/index.html'">Explore the Database</button>
+    </section>
+
+    <section id="installer" class="section">
+        <h2>Database Installer</h2>
+        <p>Set up your local Ebolavirus database with ease using our installer. Follow the instructions to get started.</p>
+        <button onclick="window.location.href='installer/installer.html'">Download Installer</button>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Have questions or need support? Reach out to us at <a href="mailto:support@pathogenius.org">support@pathogenius.org</a>.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 PathoGenius. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
