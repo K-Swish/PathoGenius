@@ -1,0 +1,33 @@
+{
+  "dateCreated": "2024-12-09T22:14:17.356Z",
+  "tracks": [
+    {
+      "trackId": "Zaire_Ebolavirus_sorted.gff",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Zaire_Ebolavirus_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Zaire_Ebolavirus_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "Zaire_Ebolavirus"
+  ]
+}

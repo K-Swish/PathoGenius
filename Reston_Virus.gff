@@ -1,0 +1,56 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ViralProj15006
+#!genome-build-accession NCBI_Assembly:GCF_000854085.1
+##sequence-region NC_004161.1 1 18891
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186539
+NC_004161.1	RefSeq	region	1	18891	.	+	.	ID=NC_004161.1:1..18891;Dbxref=taxon:186539;gbkey=Src;genome=genomic;isolate=Reston virus/M.fascicularis-tc/USA/1989/Philippines89-Pennsylvania;mol_type=viral cRNA;old-name=Reston Ebola virus
+NC_004161.1	RefSeq	five_prime_UTR	1	55	.	+	.	ID=id-NC_004161.1:1..55;Note=leader region;function=regulation of initiation of RNA replication;gbkey=5'UTR
+NC_004161.1	RefSeq	gene	56	3013	.	+	.	ID=gene-REBOVgp1;Dbxref=GeneID:955194;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding;locus_tag=REBOVgp1
+NC_004161.1	RefSeq	mRNA	56	3013	.	+	.	ID=rna-REBOVgp1;Parent=gene-REBOVgp1;Dbxref=GeneID:955194;gbkey=mRNA;gene=NP;locus_tag=REBOVgp1;product=nucleoprotein
+NC_004161.1	RefSeq	exon	56	3013	.	+	.	ID=exon-REBOVgp1-1;Parent=rna-REBOVgp1;Dbxref=GeneID:955194;gbkey=mRNA;gene=NP;locus_tag=REBOVgp1;product=nucleoprotein
+NC_004161.1	RefSeq	CDS	464	2683	.	+	0	ID=cds-NP_690580.1;Parent=rna-REBOVgp1;Dbxref=GenBank:NP_690580.1,GeneID:955194;Name=NP_690580.1;gbkey=CDS;gene=NP;locus_tag=REBOVgp1;product=nucleoprotein;protein_id=NP_690580.1
+NC_004161.1	RefSeq	polyA_signal_sequence	3003	3013	.	+	.	ID=id-REBOVgp1;Parent=gene-REBOVgp1;Dbxref=GeneID:955194;Note=NP;gbkey=regulatory;gene=NP;locus_tag=REBOVgp1;regulatory_class=polyA_signal_sequence
+NC_004161.1	RefSeq	sequence_feature	3014	3018	.	+	.	ID=id-NC_004161.1:3014..3018;Note=intergenic region;gbkey=misc_feature
+NC_004161.1	RefSeq	gene	3019	4413	.	+	.	ID=gene-REBOVgp2;Dbxref=GeneID:955189;Name=VP35;gbkey=Gene;gene=VP35;gene_biotype=protein_coding;locus_tag=REBOVgp2
+NC_004161.1	RefSeq	mRNA	3019	4413	.	+	.	ID=rna-REBOVgp2;Parent=gene-REBOVgp2;Dbxref=GeneID:955189;gbkey=mRNA;gene=VP35;locus_tag=REBOVgp2;product=VP35
+NC_004161.1	RefSeq	exon	3019	4413	.	+	.	ID=exon-REBOVgp2-1;Parent=rna-REBOVgp2;Dbxref=GeneID:955189;gbkey=mRNA;gene=VP35;locus_tag=REBOVgp2;product=VP35
+NC_004161.1	RefSeq	CDS	3155	4144	.	+	0	ID=cds-NP_690581.1;Parent=rna-REBOVgp2;Dbxref=GenBank:NP_690581.1,GeneID:955189;Name=NP_690581.1;gbkey=CDS;gene=VP35;locus_tag=REBOVgp2;product=polymerase complex protein;protein_id=NP_690581.1
+NC_004161.1	RefSeq	polyA_signal_sequence	4403	4413	.	+	.	ID=id-REBOVgp2;Parent=gene-REBOVgp2;Dbxref=GeneID:955189;Note=VP35;gbkey=regulatory;gene=VP35;locus_tag=REBOVgp2;regulatory_class=polyA_signal_sequence
+NC_004161.1	RefSeq	gene	4396	5893	.	+	.	ID=gene-REBOVgp3;Dbxref=GeneID:955192;Name=VP40;gbkey=Gene;gene=VP40;gene_biotype=protein_coding;locus_tag=REBOVgp3
+NC_004161.1	RefSeq	mRNA	4396	5893	.	+	.	ID=rna-REBOVgp3;Parent=gene-REBOVgp3;Dbxref=GeneID:955192;gbkey=mRNA;gene=VP40;locus_tag=REBOVgp3;product=VP40
+NC_004161.1	RefSeq	exon	4396	5893	.	+	.	ID=exon-REBOVgp3-1;Parent=rna-REBOVgp3;Dbxref=GeneID:955192;gbkey=mRNA;gene=VP40;locus_tag=REBOVgp3;product=VP40
+NC_004161.1	RefSeq	CDS	4485	5480	.	+	0	ID=cds-NP_690582.1;Parent=rna-REBOVgp3;Dbxref=GenBank:NP_690582.1,GeneID:955192;Name=NP_690582.1;gbkey=CDS;gene=VP40;locus_tag=REBOVgp3;product=matrix protein;protein_id=NP_690582.1
+NC_004161.1	RefSeq	polyA_signal_sequence	5883	5893	.	+	.	ID=id-REBOVgp3;Parent=gene-REBOVgp3;Dbxref=GeneID:955192;Note=VP40;gbkey=regulatory;gene=VP40;locus_tag=REBOVgp3;regulatory_class=polyA_signal_sequence
+NC_004161.1	RefSeq	sequence_feature	5894	5900	.	+	.	ID=id-NC_004161.1:5894..5900;Note=intergenic region;gbkey=misc_feature
+NC_004161.1	RefSeq	gene	5901	8256	.	+	.	ID=gene-REBOVgp4;Dbxref=GeneID:955190;Name=GP;gbkey=Gene;gene=GP;gene_biotype=protein_coding;locus_tag=REBOVgp4
+NC_004161.1	RefSeq	CDS	6042	6930	.	+	0	ID=cds-NP_690583.1;Parent=gene-REBOVgp4;Dbxref=GenBank:NP_690583.1,GeneID:955190;Name=NP_690583.1;Note=structural glycoprotein%3B cleaved by furin into subunits GP1 and GP2 to yeild a heterodimer linked by a disulfide bond;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=REBOVgp4;product=spike glycoprotein;protein_id=NP_690583.1
+NC_004161.1	RefSeq	CDS	6930	8074	.	+	2	ID=cds-NP_690583.1;Parent=gene-REBOVgp4;Dbxref=GenBank:NP_690583.1,GeneID:955190;Name=NP_690583.1;Note=structural glycoprotein%3B cleaved by furin into subunits GP1 and GP2 to yeild a heterodimer linked by a disulfide bond;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=REBOVgp4;product=spike glycoprotein;protein_id=NP_690583.1
+NC_004161.1	RefSeq	CDS	6042	6928	.	+	0	ID=cds-YP_009246340.1;Parent=gene-REBOVgp4;Dbxref=GenBank:YP_009246340.1,GeneID:955190;Name=YP_009246340.1;Note=second non-structural secreted glycoprotein%3B super small secreted glycoprotein%3B secreted in a monomeric form%3B one A residue is deleted or two additional A residues are inserted at the editing site during transcription of the GP gene;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=REBOVgp4;product=second secreted glycoprotein;protein_id=YP_009246340.1
+NC_004161.1	RefSeq	CDS	6930	7038	.	+	1	ID=cds-YP_009246340.1;Parent=gene-REBOVgp4;Dbxref=GenBank:YP_009246340.1,GeneID:955190;Name=YP_009246340.1;Note=second non-structural secreted glycoprotein%3B super small secreted glycoprotein%3B secreted in a monomeric form%3B one A residue is deleted or two additional A residues are inserted at the editing site during transcription of the GP gene;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=REBOVgp4;product=second secreted glycoprotein;protein_id=YP_009246340.1
+NC_004161.1	RefSeq	mRNA	5901	8256	.	+	.	ID=rna-REBOVgp4;Parent=gene-REBOVgp4;Dbxref=GeneID:955190;Note=unedited mRNA;gbkey=mRNA;gene=GP;locus_tag=REBOVgp4;product=sGP
+NC_004161.1	RefSeq	exon	5901	8256	.	+	.	ID=exon-REBOVgp4-1;Parent=rna-REBOVgp4;Dbxref=GeneID:955190;Note=unedited mRNA;gbkey=mRNA;gene=GP;locus_tag=REBOVgp4;product=sGP
+NC_004161.1	RefSeq	CDS	6042	7145	.	+	0	ID=cds-NP_690584.1;Parent=rna-REBOVgp4;Dbxref=GenBank:NP_690584.1,GeneID:955190;Name=NP_690584.1;Note=translated from edited mRNA;gbkey=CDS;gene=GP;locus_tag=REBOVgp4;product=small secreted glycoprotein;protein_id=NP_690584.1
+NC_004161.1	RefSeq	sequence_feature	6924	6930	.	+	.	ID=id-REBOVgp4;Dbxref=GeneID:955190;Note=site of insertion of A residue during transcription by the viral polymerase which translates the structural glycoprotein;gbkey=misc_feature;gene=GP;locus_tag=REBOVgp4
+NC_004161.1	RefSeq	sequence_feature	7796	7873	.	+	.	ID=id-REBOVgp4-2;Dbxref=GeneID:955190;Note=immunosuppressive motif;gbkey=misc_feature;gene=GP;locus_tag=REBOVgp4
+NC_004161.1	RefSeq	polyA_signal_sequence	8246	8256	.	+	.	ID=id-REBOVgp4-3;Parent=gene-REBOVgp4;Dbxref=GeneID:955190;Note=GP;gbkey=regulatory;gene=GP;locus_tag=REBOVgp4;regulatory_class=polyA_signal_sequence
+NC_004161.1	RefSeq	sequence_feature	8257	8261	.	+	.	ID=id-NC_004161.1:8257..8261;Note=intergenic region;gbkey=misc_feature
+NC_004161.1	RefSeq	gene	8262	9701	.	+	.	ID=gene-REBOVgp6;Dbxref=GeneID:955196;Name=VP30;gbkey=Gene;gene=VP30;gene_biotype=protein_coding;locus_tag=REBOVgp6
+NC_004161.1	RefSeq	mRNA	8262	9701	.	+	.	ID=rna-REBOVgp6;Parent=gene-REBOVgp6;Dbxref=GeneID:955196;gbkey=mRNA;gene=VP30;locus_tag=REBOVgp6;product=VP30
+NC_004161.1	RefSeq	exon	8262	9701	.	+	.	ID=exon-REBOVgp6-1;Parent=rna-REBOVgp6;Dbxref=GeneID:955196;gbkey=mRNA;gene=VP30;locus_tag=REBOVgp6;product=VP30
+NC_004161.1	RefSeq	CDS	8490	9353	.	+	0	ID=cds-NP_690585.1;Parent=rna-REBOVgp6;Dbxref=GenBank:NP_690585.1,GeneID:955196;Name=NP_690585.1;gbkey=CDS;gene=VP30;locus_tag=REBOVgp6;product=minor nucleoprotein;protein_id=NP_690585.1
+NC_004161.1	RefSeq	polyA_signal_sequence	9690	9701	.	+	.	ID=id-REBOVgp6;Parent=gene-REBOVgp6;Dbxref=GeneID:955196;Note=VP30;gbkey=regulatory;gene=VP30;locus_tag=REBOVgp6;regulatory_class=polyA_signal_sequence
+NC_004161.1	RefSeq	sequence_feature	9702	9831	.	+	.	ID=id-NC_004161.1:9702..9831;Note=intergenic region;gbkey=misc_feature
+NC_004161.1	RefSeq	gene	9832	11481	.	+	.	ID=gene-REBOVgp7;Dbxref=GeneID:955193;Name=VP24;gbkey=Gene;gene=VP24;gene_biotype=protein_coding;locus_tag=REBOVgp7
+NC_004161.1	RefSeq	mRNA	9832	11481	.	+	.	ID=rna-REBOVgp7;Parent=gene-REBOVgp7;Dbxref=GeneID:955193;gbkey=mRNA;gene=VP24;locus_tag=REBOVgp7;product=VP24
+NC_004161.1	RefSeq	exon	9832	11481	.	+	.	ID=exon-REBOVgp7-1;Parent=rna-REBOVgp7;Dbxref=GeneID:955193;gbkey=mRNA;gene=VP24;locus_tag=REBOVgp7;product=VP24
+NC_004161.1	RefSeq	CDS	10303	11058	.	+	0	ID=cds-NP_690586.1;Parent=rna-REBOVgp7;Dbxref=GenBank:NP_690586.1,GeneID:955193;Name=NP_690586.1;gbkey=CDS;gene=VP24;locus_tag=REBOVgp7;product=membrane-associated protein;protein_id=NP_690586.1
+NC_004161.1	RefSeq	polyA_signal_sequence	11471	11481	.	+	.	ID=id-REBOVgp7;Parent=gene-REBOVgp7;Dbxref=GeneID:955193;Note=VP24;gbkey=regulatory;gene=VP24;locus_tag=REBOVgp7;regulatory_class=polyA_signal_sequence
+NC_004161.1	RefSeq	gene	11464	18866	.	+	.	ID=gene-REBOVgp8;Dbxref=GeneID:955191;Name=L;gbkey=Gene;gene=L;gene_biotype=protein_coding;locus_tag=REBOVgp8
+NC_004161.1	RefSeq	mRNA	11464	18866	.	+	.	ID=rna-REBOVgp8;Parent=gene-REBOVgp8;Dbxref=GeneID:955191;gbkey=mRNA;gene=L;locus_tag=REBOVgp8;product=polymerase
+NC_004161.1	RefSeq	exon	11464	18866	.	+	.	ID=exon-REBOVgp8-1;Parent=rna-REBOVgp8;Dbxref=GeneID:955191;gbkey=mRNA;gene=L;locus_tag=REBOVgp8;product=polymerase
+NC_004161.1	RefSeq	CDS	11550	18188	.	+	0	ID=cds-NP_690587.1;Parent=rna-REBOVgp8;Dbxref=GenBank:NP_690587.1,GeneID:955191;Name=NP_690587.1;gbkey=CDS;gene=L;locus_tag=REBOVgp8;product=RNA-dependent RNA polymerase;protein_id=NP_690587.1
+NC_004161.1	RefSeq	polyA_signal_sequence	18856	18866	.	+	.	ID=id-REBOVgp8;Parent=gene-REBOVgp8;Dbxref=GeneID:955191;Note=L;gbkey=regulatory;gene=L;locus_tag=REBOVgp8;regulatory_class=polyA_signal_sequence
+NC_004161.1	RefSeq	five_prime_UTR	18867	18891	.	+	.	ID=id-NC_004161.1:18867..18891;Note=trailer region;function=regulation of initiation of RNA replication;gbkey=5'UTR
+###

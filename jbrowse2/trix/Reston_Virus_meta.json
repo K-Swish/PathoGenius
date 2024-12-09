@@ -1,0 +1,33 @@
+{
+  "dateCreated": "2024-12-09T22:13:57.928Z",
+  "tracks": [
+    {
+      "trackId": "Reston_Virus_sorted.gff",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Reston_Virus_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Reston_Virus_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "Reston_Virus"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "dateCreated": "2024-12-09T22:13:50.600Z",
+  "tracks": [
+    {
+      "trackId": "Bundibugyo_Virus_sorted.gff",
+      "attributesIndexed": [
+        "Name",
+        "ID"
+      ],
+      "excludedTypes": [
+        "CDS",
+        "exon"
+      ],
+      "adapterConf": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Bundibugyo_Virus_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Bundibugyo_Virus_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      }
+    }
+  ],
+  "assemblyNames": [
+    "Bundibugyo_Virus"
+  ]
+}

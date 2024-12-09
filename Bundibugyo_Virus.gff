@@ -1,0 +1,60 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ViralProj51245
+#!genome-build-accession NCBI_Assembly:GCF_000889155.1
+##sequence-region NC_014373.1 1 18940
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=565995
+NC_014373.1	RefSeq	region	1	18940	.	+	.	ID=NC_014373.1:1..18940;Dbxref=taxon:565995;collection-date=Nov-2007;country=Uganda;gbkey=Src;genome=genomic;isolate=Bundibugyo virus/H.sapiens-tc/UGA/2007/Butalya-811250;isolation-source=blood;mol_type=viral cRNA;nat-host=Homo sapiens;old-name=Bundibugyo ebolavirus
+NC_014373.1	RefSeq	five_prime_UTR	1	55	.	+	.	ID=id-NC_014373.1:1..55;Note=leader region;function=regulation or initiation of RNA replication;gbkey=5'UTR
+NC_014373.1	RefSeq	gene	56	3014	.	+	.	ID=gene-BDBVp1;Dbxref=GeneID:9487269;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding;locus_tag=BDBVp1
+NC_014373.1	RefSeq	mRNA	56	3014	.	+	.	ID=rna-BDBVp1;Parent=gene-BDBVp1;Dbxref=GeneID:9487269;gbkey=mRNA;gene=NP;locus_tag=BDBVp1;product=nucleoprotein
+NC_014373.1	RefSeq	exon	56	3014	.	+	.	ID=exon-BDBVp1-1;Parent=rna-BDBVp1;Dbxref=GeneID:9487269;gbkey=mRNA;gene=NP;locus_tag=BDBVp1;product=nucleoprotein
+NC_014373.1	RefSeq	CDS	458	2677	.	+	0	ID=cds-YP_003815432.1;Parent=rna-BDBVp1;Dbxref=GenBank:YP_003815432.1,GeneID:9487269;Name=YP_003815432.1;Note=encapsidation of genomic RNA;gbkey=CDS;gene=NP;locus_tag=BDBVp1;product=nucleoprotein;protein_id=YP_003815432.1
+NC_014373.1	RefSeq	regulatory_region	56	67	.	+	.	ID=id-BDBVp1;Parent=gene-BDBVp1;Dbxref=GeneID:9487269;Note=putative transcription start signal;gbkey=regulatory;gene=NP;locus_tag=BDBVp1;regulatory_class=other
+NC_014373.1	RefSeq	polyA_signal_sequence	3003	3014	.	+	.	ID=id-BDBVp1-2;Parent=gene-BDBVp1;Dbxref=GeneID:9487269;Note=putative;gbkey=regulatory;gene=NP;locus_tag=BDBVp1;regulatory_class=polyA_signal_sequence
+NC_014373.1	RefSeq	gene	3020	4389	.	+	.	ID=gene-BDBVp2;Dbxref=GeneID:9487263;Name=VP35;gbkey=Gene;gene=VP35;gene_biotype=protein_coding;locus_tag=BDBVp2
+NC_014373.1	RefSeq	mRNA	3020	4389	.	+	.	ID=rna-BDBVp2;Parent=gene-BDBVp2;Dbxref=GeneID:9487263;gbkey=mRNA;gene=VP35;locus_tag=BDBVp2;product=VP35
+NC_014373.1	RefSeq	exon	3020	4389	.	+	.	ID=exon-BDBVp2-1;Parent=rna-BDBVp2;Dbxref=GeneID:9487263;gbkey=mRNA;gene=VP35;locus_tag=BDBVp2;product=VP35
+NC_014373.1	RefSeq	CDS	3108	4133	.	+	0	ID=cds-YP_003815433.1;Parent=rna-BDBVp2;Dbxref=GenBank:YP_003815433.1,GeneID:9487263;Name=YP_003815433.1;Note=putative type-1 IFN antagonist;gbkey=CDS;gene=VP35;locus_tag=BDBVp2;product=polymerase complex protein;protein_id=YP_003815433.1
+NC_014373.1	RefSeq	regulatory_region	3020	3031	.	+	.	ID=id-BDBVp2;Parent=gene-BDBVp2;Dbxref=GeneID:9487263;Note=putative transcription start signal;gbkey=regulatory;gene=VP35;locus_tag=BDBVp2;regulatory_class=other
+NC_014373.1	RefSeq	polyA_signal_sequence	4379	4389	.	+	.	ID=id-BDBVp2-2;Parent=gene-BDBVp2;Dbxref=GeneID:9487263;Note=putative;gbkey=regulatory;gene=VP35;locus_tag=BDBVp2;regulatory_class=polyA_signal_sequence
+NC_014373.1	RefSeq	gene	4372	5875	.	+	.	ID=gene-BDBVp3;Dbxref=GeneID:9487264;Name=VP40;gbkey=Gene;gene=VP40;gene_biotype=protein_coding;locus_tag=BDBVp3
+NC_014373.1	RefSeq	mRNA	4372	5875	.	+	.	ID=rna-BDBVp3;Parent=gene-BDBVp3;Dbxref=GeneID:9487264;gbkey=mRNA;gene=VP40;locus_tag=BDBVp3;product=VP40
+NC_014373.1	RefSeq	exon	4372	5875	.	+	.	ID=exon-BDBVp3-1;Parent=rna-BDBVp3;Dbxref=GeneID:9487264;gbkey=mRNA;gene=VP40;locus_tag=BDBVp3;product=VP40
+NC_014373.1	RefSeq	CDS	4461	5441	.	+	0	ID=cds-YP_003815434.1;Parent=rna-BDBVp3;Dbxref=GenBank:YP_003815434.1,GeneID:9487264;Name=YP_003815434.1;gbkey=CDS;gene=VP40;locus_tag=BDBVp3;product=matrix protein;protein_id=YP_003815434.1
+NC_014373.1	RefSeq	regulatory_region	4372	4383	.	+	.	ID=id-BDBVp3;Parent=gene-BDBVp3;Dbxref=GeneID:9487264;Note=putative transcription start signal;gbkey=regulatory;gene=VP40;locus_tag=BDBVp3;regulatory_class=other
+NC_014373.1	RefSeq	polyA_signal_sequence	5865	5875	.	+	.	ID=id-BDBVp3-2;Parent=gene-BDBVp3;Dbxref=GeneID:9487264;Note=putative;gbkey=regulatory;gene=VP40;locus_tag=BDBVp3;regulatory_class=polyA_signal_sequence
+NC_014373.1	RefSeq	gene	5882	8286	.	+	.	ID=gene-BDBVp4;Dbxref=GeneID:9487265;Name=GP;gbkey=Gene;gene=GP;gene_biotype=protein_coding;locus_tag=BDBVp4
+NC_014373.1	RefSeq	CDS	6021	6905	.	+	0	ID=cds-YP_003815435.1;Parent=gene-BDBVp4;Dbxref=GenBank:YP_003815435.1,GeneID:9487265;Name=YP_003815435.1;Note=GP1%2C2%3B structural glycoprotein%3B cleaved by furin into subunits GP1 and GP2 to yield a heterodimer linked by a disulfide bond;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=BDBVp4;product=spike glycoprotein;protein_id=YP_003815435.1
+NC_014373.1	RefSeq	CDS	6905	8050	.	+	0	ID=cds-YP_003815435.1;Parent=gene-BDBVp4;Dbxref=GenBank:YP_003815435.1,GeneID:9487265;Name=YP_003815435.1;Note=GP1%2C2%3B structural glycoprotein%3B cleaved by furin into subunits GP1 and GP2 to yield a heterodimer linked by a disulfide bond;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=BDBVp4;product=spike glycoprotein;protein_id=YP_003815435.1
+NC_014373.1	RefSeq	CDS	6021	6905	.	+	0	ID=cds-YP_003815437.1;Parent=gene-BDBVp4;Dbxref=GenBank:YP_003815437.1,GeneID:9487265;Name=YP_003815437.1;Note=second non-structural secreted glycoprotein%3B secreted in a monomeric form%3B one A residue is deleted or two additional A residues are inserted at the editing site during transcription of the GP gene;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=BDBVp4;product=second secreted glycoprotein;protein_id=YP_003815437.1
+NC_014373.1	RefSeq	CDS	6907	6930	.	+	0	ID=cds-YP_003815437.1;Parent=gene-BDBVp4;Dbxref=GenBank:YP_003815437.1,GeneID:9487265;Name=YP_003815437.1;Note=second non-structural secreted glycoprotein%3B secreted in a monomeric form%3B one A residue is deleted or two additional A residues are inserted at the editing site during transcription of the GP gene;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=BDBVp4;product=second secreted glycoprotein;protein_id=YP_003815437.1
+NC_014373.1	RefSeq	mRNA	5882	8286	.	+	.	ID=rna-BDBVp4;Parent=gene-BDBVp4;Dbxref=GeneID:9487265;Note=unedited mRNA;gbkey=mRNA;gene=GP;locus_tag=BDBVp4;product=sGP
+NC_014373.1	RefSeq	exon	5882	8286	.	+	.	ID=exon-BDBVp4-1;Parent=rna-BDBVp4;Dbxref=GeneID:9487265;Note=unedited mRNA;gbkey=mRNA;gene=GP;locus_tag=BDBVp4;product=sGP
+NC_014373.1	RefSeq	CDS	6021	7142	.	+	0	ID=cds-YP_003815436.1;Parent=rna-BDBVp4;Dbxref=GenBank:YP_003815436.1,GeneID:9487265;Name=YP_003815436.1;Note=solulbe secreted glycoprotein%3B small non-structural secreted glycoprotein%3B sGP;gbkey=CDS;gene=GP;locus_tag=BDBVp4;product=small secreted glycoprotein;protein_id=YP_003815436.1
+NC_014373.1	RefSeq	sequence_feature	6900	6906	.	+	.	ID=id-BDBVp4;Dbxref=GeneID:9487265;Note=additional A residues are inserted or deleted during transcription by the viral polymerase%3B transcriptional editing site;gbkey=misc_feature;gene=GP;locus_tag=BDBVp4
+NC_014373.1	RefSeq	sequence_feature	7775	7852	.	+	.	ID=id-BDBVp4-2;Dbxref=GeneID:9487265;Note=immunosuppressive motif in structural glycoprotein;gbkey=misc_feature;gene=GP;locus_tag=BDBVp4
+NC_014373.1	RefSeq	sequence_feature	7970	8035	.	+	.	ID=id-BDBVp4-3;Dbxref=GeneID:9487265;Note=transmembrane anchor present in structural glycoprotein;gbkey=misc_feature;gene=GP;locus_tag=BDBVp4
+NC_014373.1	RefSeq	regulatory_region	5882	5893	.	+	.	ID=id-BDBVp4-4;Parent=gene-BDBVp4;Dbxref=GeneID:9487265;Note=putative transcription start signal;gbkey=regulatory;gene=GP;locus_tag=BDBVp4;regulatory_class=other
+NC_014373.1	RefSeq	polyA_signal_sequence	8276	8286	.	+	.	ID=id-BDBVp4-5;Parent=gene-BDBVp4;Dbxref=GeneID:9487265;Note=putative;gbkey=regulatory;gene=GP;locus_tag=BDBVp4;regulatory_class=polyA_signal_sequence
+NC_014373.1	RefSeq	gene	8269	9728	.	+	.	ID=gene-BDBVp5;Dbxref=GeneID:9487266;Name=VP30;gbkey=Gene;gene=VP30;gene_biotype=protein_coding;locus_tag=BDBVp5
+NC_014373.1	RefSeq	mRNA	8269	9728	.	+	.	ID=rna-BDBVp5;Parent=gene-BDBVp5;Dbxref=GeneID:9487266;gbkey=mRNA;gene=VP30;locus_tag=BDBVp5;product=VP30
+NC_014373.1	RefSeq	exon	8269	9728	.	+	.	ID=exon-BDBVp5-1;Parent=rna-BDBVp5;Dbxref=GeneID:9487266;gbkey=mRNA;gene=VP30;locus_tag=BDBVp5;product=VP30
+NC_014373.1	RefSeq	CDS	8496	9365	.	+	0	ID=cds-YP_003815438.1;Parent=rna-BDBVp5;Dbxref=GenBank:YP_003815438.1,GeneID:9487266;Name=YP_003815438.1;Note=polymerase complex protein;gbkey=CDS;gene=VP30;locus_tag=BDBVp5;product=minor nucleoprotein;protein_id=YP_003815438.1
+NC_014373.1	RefSeq	regulatory_region	8269	8280	.	+	.	ID=id-BDBVp5;Parent=gene-BDBVp5;Dbxref=GeneID:9487266;Note=putative transcription start signal;gbkey=regulatory;gene=VP30;locus_tag=BDBVp5;regulatory_class=other
+NC_014373.1	RefSeq	polyA_signal_sequence	9717	9728	.	+	.	ID=id-BDBVp5-2;Parent=gene-BDBVp5;Dbxref=GeneID:9487266;Note=putative;gbkey=regulatory;gene=VP30;locus_tag=BDBVp5;regulatory_class=polyA_signal_sequence
+NC_014373.1	RefSeq	gene	9869	11504	.	+	.	ID=gene-BDBVp6;Dbxref=GeneID:9487267;Name=VP24;gbkey=Gene;gene=VP24;gene_biotype=protein_coding;locus_tag=BDBVp6
+NC_014373.1	RefSeq	mRNA	9869	11504	.	+	.	ID=rna-BDBVp6;Parent=gene-BDBVp6;Dbxref=GeneID:9487267;gbkey=mRNA;gene=VP24;locus_tag=BDBVp6;product=VP24
+NC_014373.1	RefSeq	exon	9869	11504	.	+	.	ID=exon-BDBVp6-1;Parent=rna-BDBVp6;Dbxref=GeneID:9487267;gbkey=mRNA;gene=VP24;locus_tag=BDBVp6;product=VP24
+NC_014373.1	RefSeq	CDS	10335	11090	.	+	0	ID=cds-YP_003815439.1;Parent=rna-BDBVp6;Dbxref=GenBank:YP_003815439.1,GeneID:9487267;Name=YP_003815439.1;gbkey=CDS;gene=VP24;locus_tag=BDBVp6;product=membrane-associated protein;protein_id=YP_003815439.1
+NC_014373.1	RefSeq	regulatory_region	9869	9880	.	+	.	ID=id-BDBVp6;Parent=gene-BDBVp6;Dbxref=GeneID:9487267;Note=putative transcription start signal;gbkey=regulatory;gene=VP24;locus_tag=BDBVp6;regulatory_class=other
+NC_014373.1	RefSeq	polyA_signal_sequence	11494	11504	.	+	.	ID=id-BDBVp6-2;Parent=gene-BDBVp6;Dbxref=GeneID:9487267;Note=putative;gbkey=regulatory;gene=VP24;locus_tag=BDBVp6;regulatory_class=polyA_signal_sequence
+NC_014373.1	RefSeq	gene	11487	18465	.	+	.	ID=gene-BDBVp7;Dbxref=GeneID:9487268;Name=L;gbkey=Gene;gene=L;gene_biotype=protein_coding;locus_tag=BDBVp7
+NC_014373.1	RefSeq	mRNA	11487	18465	.	+	.	ID=rna-BDBVp7;Parent=gene-BDBVp7;Dbxref=GeneID:9487268;gbkey=mRNA;gene=L;locus_tag=BDBVp7;product=polymerase
+NC_014373.1	RefSeq	exon	11487	18465	.	+	.	ID=exon-BDBVp7-1;Parent=rna-BDBVp7;Dbxref=GeneID:9487268;gbkey=mRNA;gene=L;locus_tag=BDBVp7;product=polymerase
+NC_014373.1	RefSeq	CDS	11567	18199	.	+	0	ID=cds-YP_003815440.1;Parent=rna-BDBVp7;Dbxref=GenBank:YP_003815440.1,GeneID:9487268;Name=YP_003815440.1;Note=synthesis of viral RNAs%3B transcriptional RNA editing;gbkey=CDS;gene=L;locus_tag=BDBVp7;product=RNA-dependent RNA polymerase;protein_id=YP_003815440.1
+NC_014373.1	RefSeq	regulatory_region	11487	11498	.	+	.	ID=id-BDBVp7;Parent=gene-BDBVp7;Dbxref=GeneID:9487268;Note=putative transcription start signal;gbkey=regulatory;gene=L;locus_tag=BDBVp7;regulatory_class=other
+NC_014373.1	RefSeq	polyA_signal_sequence	18455	18465	.	+	.	ID=id-BDBVp7-2;Parent=gene-BDBVp7;Dbxref=GeneID:9487268;Note=putative%3B alternative (upstream) polyA signal;gbkey=regulatory;gene=L;locus_tag=BDBVp7;regulatory_class=polyA_signal_sequence
+NC_014373.1	RefSeq	three_prime_UTR	18466	18940	.	+	.	ID=id-NC_014373.1:18466..18940;Note=trailer region;function=regulation or initiation of RNA replication;gbkey=3'UTR
+###

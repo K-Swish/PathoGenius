@@ -1,0 +1,60 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ViralProj51257
+#!genome-build-accession NCBI_Assembly:GCF_000888475.1
+##sequence-region NC_014372.1 1 18935
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186541
+NC_014372.1	RefSeq	region	1	18935	.	+	.	ID=NC_014372.1:1..18935;Dbxref=taxon:186541;collection-date=Nov-1994;country=Cote d'Ivoire;gbkey=Src;genome=genomic;isolate=Tai Forest virus/H.sapiens-tc/CIV/1994/Pauleoula-CI;mol_type=viral cRNA;nat-host=Homo sapiens;note=Ivory Coast ebolavirus;old-name=Cote d'Ivoire ebolavirus
+NC_014372.1	RefSeq	five_prime_UTR	1	55	.	+	.	ID=id-NC_014372.1:1..55;Note=putative leader region;function=regulation or initiation of RNA replication;gbkey=5'UTR
+NC_014372.1	RefSeq	gene	56	3020	.	+	.	ID=gene-CIEBOVp1;Dbxref=GeneID:9487539;Name=NP;gbkey=Gene;gene=NP;gene_biotype=protein_coding;locus_tag=CIEBOVp1
+NC_014372.1	RefSeq	mRNA	56	3020	.	+	.	ID=rna-CIEBOVp1;Parent=gene-CIEBOVp1;Dbxref=GeneID:9487539;gbkey=mRNA;gene=NP;locus_tag=CIEBOVp1;product=nucleoprotein
+NC_014372.1	RefSeq	exon	56	3020	.	+	.	ID=exon-CIEBOVp1-1;Parent=rna-CIEBOVp1;Dbxref=GeneID:9487539;gbkey=mRNA;gene=NP;locus_tag=CIEBOVp1;product=nucleoprotein
+NC_014372.1	RefSeq	CDS	464	2683	.	+	0	ID=cds-YP_003815423.1;Parent=rna-CIEBOVp1;Dbxref=GenBank:YP_003815423.1,GeneID:9487539;Name=YP_003815423.1;gbkey=CDS;gene=NP;locus_tag=CIEBOVp1;product=nucleoprotein;protein_id=YP_003815423.1
+NC_014372.1	RefSeq	regulatory_region	56	67	.	+	.	ID=id-CIEBOVp1;Parent=gene-CIEBOVp1;Dbxref=GeneID:9487539;Note=putative transcription start signal;gbkey=regulatory;gene=NP;locus_tag=CIEBOVp1;regulatory_class=other
+NC_014372.1	RefSeq	polyA_signal_sequence	3009	3020	.	+	.	ID=id-CIEBOVp1-2;Parent=gene-CIEBOVp1;Dbxref=GeneID:9487539;Note=putative;gbkey=regulatory;gene=NP;locus_tag=CIEBOVp1;regulatory_class=polyA_signal_sequence
+NC_014372.1	RefSeq	gene	3026	4395	.	+	.	ID=gene-CIEBOVp2;Dbxref=GeneID:9487533;Name=VP35;gbkey=Gene;gene=VP35;gene_biotype=protein_coding;locus_tag=CIEBOVp2
+NC_014372.1	RefSeq	mRNA	3026	4395	.	+	.	ID=rna-CIEBOVp2;Parent=gene-CIEBOVp2;Dbxref=GeneID:9487533;gbkey=mRNA;gene=VP35;locus_tag=CIEBOVp2;product=VP35
+NC_014372.1	RefSeq	exon	3026	4395	.	+	.	ID=exon-CIEBOVp2-1;Parent=rna-CIEBOVp2;Dbxref=GeneID:9487533;gbkey=mRNA;gene=VP35;locus_tag=CIEBOVp2;product=VP35
+NC_014372.1	RefSeq	CDS	3114	4139	.	+	0	ID=cds-YP_003815424.1;Parent=rna-CIEBOVp2;Dbxref=GenBank:YP_003815424.1,GeneID:9487533;Name=YP_003815424.1;Note=putative type-1 IFN antagonist;gbkey=CDS;gene=VP35;locus_tag=CIEBOVp2;product=polymerase complex protein;protein_id=YP_003815424.1
+NC_014372.1	RefSeq	regulatory_region	3026	3037	.	+	.	ID=id-CIEBOVp2;Parent=gene-CIEBOVp2;Dbxref=GeneID:9487533;Note=putative transcription start signal;gbkey=regulatory;gene=VP35;locus_tag=CIEBOVp2;regulatory_class=other
+NC_014372.1	RefSeq	polyA_signal_sequence	4385	4395	.	+	.	ID=id-CIEBOVp2-2;Parent=gene-CIEBOVp2;Dbxref=GeneID:9487533;Note=putative;gbkey=regulatory;gene=VP35;locus_tag=CIEBOVp2;regulatory_class=polyA_signal_sequence
+NC_014372.1	RefSeq	gene	4378	5881	.	+	.	ID=gene-CIEBOVp3;Dbxref=GeneID:9487534;Name=VP40;gbkey=Gene;gene=VP40;gene_biotype=protein_coding;locus_tag=CIEBOVp3
+NC_014372.1	RefSeq	mRNA	4378	5881	.	+	.	ID=rna-CIEBOVp3;Parent=gene-CIEBOVp3;Dbxref=GeneID:9487534;gbkey=mRNA;gene=VP40;locus_tag=CIEBOVp3;product=VP40
+NC_014372.1	RefSeq	exon	4378	5881	.	+	.	ID=exon-CIEBOVp3-1;Parent=rna-CIEBOVp3;Dbxref=GeneID:9487534;gbkey=mRNA;gene=VP40;locus_tag=CIEBOVp3;product=VP40
+NC_014372.1	RefSeq	CDS	4467	5447	.	+	0	ID=cds-YP_003815425.1;Parent=rna-CIEBOVp3;Dbxref=GenBank:YP_003815425.1,GeneID:9487534;Name=YP_003815425.1;gbkey=CDS;gene=VP40;locus_tag=CIEBOVp3;product=matrix protein;protein_id=YP_003815425.1
+NC_014372.1	RefSeq	regulatory_region	4378	4389	.	+	.	ID=id-CIEBOVp3;Parent=gene-CIEBOVp3;Dbxref=GeneID:9487534;Note=putative transcription start signal;gbkey=regulatory;gene=VP40;locus_tag=CIEBOVp3;regulatory_class=other
+NC_014372.1	RefSeq	polyA_signal_sequence	5871	5881	.	+	.	ID=id-CIEBOVp3-2;Parent=gene-CIEBOVp3;Dbxref=GeneID:9487534;Note=putative;gbkey=regulatory;gene=VP40;locus_tag=CIEBOVp3;regulatory_class=polyA_signal_sequence
+NC_014372.1	RefSeq	gene	5888	8293	.	+	.	ID=gene-CIEBOVp4;Dbxref=GeneID:9487535;Name=GP;gbkey=Gene;gene=GP;gene_biotype=protein_coding;locus_tag=CIEBOVp4
+NC_014372.1	RefSeq	CDS	6027	6911	.	+	0	ID=cds-YP_003815426.1;Parent=gene-CIEBOVp4;Dbxref=GenBank:YP_003815426.1,GeneID:9487535;Name=YP_003815426.1;Note=GP1%2C2%3B structural glycoprotein%3B cleaved by furin into subunits GP1 and GP2 to yield a heterodimer linked by a disulfide bond;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=CIEBOVp4;product=spike glycoprotein;protein_id=YP_003815426.1
+NC_014372.1	RefSeq	CDS	6911	8056	.	+	0	ID=cds-YP_003815426.1;Parent=gene-CIEBOVp4;Dbxref=GenBank:YP_003815426.1,GeneID:9487535;Name=YP_003815426.1;Note=GP1%2C2%3B structural glycoprotein%3B cleaved by furin into subunits GP1 and GP2 to yield a heterodimer linked by a disulfide bond;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=CIEBOVp4;product=spike glycoprotein;protein_id=YP_003815426.1
+NC_014372.1	RefSeq	CDS	6027	6911	.	+	0	ID=cds-YP_003815428.1;Parent=gene-CIEBOVp4;Dbxref=GenBank:YP_003815428.1,GeneID:9487535;Name=YP_003815428.1;Note=ssGP%3B second non-structural secreted glycoprotein%3B secreted in a monomeric form%3B one A residue is deleted or two additional A residues are inserted at the editing site during transcription of the GP gene;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=CIEBOVp4;product=second secreted glycoprotein;protein_id=YP_003815428.1
+NC_014372.1	RefSeq	CDS	6913	6936	.	+	0	ID=cds-YP_003815428.1;Parent=gene-CIEBOVp4;Dbxref=GenBank:YP_003815428.1,GeneID:9487535;Name=YP_003815428.1;Note=ssGP%3B second non-structural secreted glycoprotein%3B secreted in a monomeric form%3B one A residue is deleted or two additional A residues are inserted at the editing site during transcription of the GP gene;exception=RNA editing;gbkey=CDS;gene=GP;locus_tag=CIEBOVp4;product=second secreted glycoprotein;protein_id=YP_003815428.1
+NC_014372.1	RefSeq	mRNA	5888	8293	.	+	.	ID=rna-CIEBOVp4;Parent=gene-CIEBOVp4;Dbxref=GeneID:9487535;Note=unedited mRNA;gbkey=mRNA;gene=GP;locus_tag=CIEBOVp4;product=sGP
+NC_014372.1	RefSeq	exon	5888	8293	.	+	.	ID=exon-CIEBOVp4-1;Parent=rna-CIEBOVp4;Dbxref=GeneID:9487535;Note=unedited mRNA;gbkey=mRNA;gene=GP;locus_tag=CIEBOVp4;product=sGP
+NC_014372.1	RefSeq	CDS	6027	7124	.	+	0	ID=cds-YP_003815427.1;Parent=rna-CIEBOVp4;Dbxref=GenBank:YP_003815427.1,GeneID:9487535;Name=YP_003815427.1;Note=soluble secreted glycoprotein%3B small non-structural secreted glycoprotein%3B sGP;gbkey=CDS;gene=GP;locus_tag=CIEBOVp4;product=small secreted glycoprotein;protein_id=YP_003815427.1
+NC_014372.1	RefSeq	sequence_feature	6906	6912	.	+	.	ID=id-CIEBOVp4;Dbxref=GeneID:9487535;Note=additional A residues are inserted or deleted during transcription by the viral polymerase%3B transcriptional editing site;gbkey=misc_feature;gene=GP;locus_tag=CIEBOVp4
+NC_014372.1	RefSeq	sequence_feature	7781	7858	.	+	.	ID=id-CIEBOVp4-2;Dbxref=GeneID:9487535;Note=immunosuppressive motif in structural glycoprotein;gbkey=misc_feature;gene=GP;locus_tag=CIEBOVp4
+NC_014372.1	RefSeq	sequence_feature	7976	8041	.	+	.	ID=id-CIEBOVp4-3;Dbxref=GeneID:9487535;Note=transmembrane anchor present in structural glycoprotein;gbkey=misc_feature;gene=GP;locus_tag=CIEBOVp4
+NC_014372.1	RefSeq	regulatory_region	5888	5899	.	+	.	ID=id-CIEBOVp4-4;Parent=gene-CIEBOVp4;Dbxref=GeneID:9487535;Note=putative transcription start signal;gbkey=regulatory;gene=GP;locus_tag=CIEBOVp4;regulatory_class=other
+NC_014372.1	RefSeq	polyA_signal_sequence	8283	8293	.	+	.	ID=id-CIEBOVp4-5;Parent=gene-CIEBOVp4;Dbxref=GeneID:9487535;Note=putative;gbkey=regulatory;gene=GP;locus_tag=CIEBOVp4;regulatory_class=polyA_signal_sequence
+NC_014372.1	RefSeq	gene	8276	9733	.	+	.	ID=gene-CIEBOVp5;Dbxref=GeneID:9487536;Name=VP30;gbkey=Gene;gene=VP30;gene_biotype=protein_coding;locus_tag=CIEBOVp5
+NC_014372.1	RefSeq	mRNA	8276	9733	.	+	.	ID=rna-CIEBOVp5;Parent=gene-CIEBOVp5;Dbxref=GeneID:9487536;gbkey=mRNA;gene=VP30;locus_tag=CIEBOVp5;product=VP30
+NC_014372.1	RefSeq	exon	8276	9733	.	+	.	ID=exon-CIEBOVp5-1;Parent=rna-CIEBOVp5;Dbxref=GeneID:9487536;gbkey=mRNA;gene=VP30;locus_tag=CIEBOVp5;product=VP30
+NC_014372.1	RefSeq	CDS	8503	9372	.	+	0	ID=cds-YP_003815429.1;Parent=rna-CIEBOVp5;Dbxref=GenBank:YP_003815429.1,GeneID:9487536;Name=YP_003815429.1;Note=polymerase complex protein;gbkey=CDS;gene=VP30;locus_tag=CIEBOVp5;product=minor nucleoprotein;protein_id=YP_003815429.1
+NC_014372.1	RefSeq	regulatory_region	8276	8287	.	+	.	ID=id-CIEBOVp5;Parent=gene-CIEBOVp5;Dbxref=GeneID:9487536;Note=putative transcription start signal;gbkey=regulatory;gene=VP30;locus_tag=CIEBOVp5;regulatory_class=other
+NC_014372.1	RefSeq	polyA_signal_sequence	9723	9733	.	+	.	ID=id-CIEBOVp5-2;Parent=gene-CIEBOVp5;Dbxref=GeneID:9487536;Note=putative;gbkey=regulatory;gene=VP30;locus_tag=CIEBOVp5;regulatory_class=polyA_signal_sequence
+NC_014372.1	RefSeq	gene	9873	11503	.	+	.	ID=gene-CIEBOVp6;Dbxref=GeneID:9487537;Name=VP24;gbkey=Gene;gene=VP24;gene_biotype=protein_coding;locus_tag=CIEBOVp6
+NC_014372.1	RefSeq	mRNA	9873	11503	.	+	.	ID=rna-CIEBOVp6;Parent=gene-CIEBOVp6;Dbxref=GeneID:9487537;gbkey=mRNA;gene=VP24;locus_tag=CIEBOVp6;product=VP24
+NC_014372.1	RefSeq	exon	9873	11503	.	+	.	ID=exon-CIEBOVp6-1;Parent=rna-CIEBOVp6;Dbxref=GeneID:9487537;gbkey=mRNA;gene=VP24;locus_tag=CIEBOVp6;product=VP24
+NC_014372.1	RefSeq	CDS	10339	11094	.	+	0	ID=cds-YP_003815430.1;Parent=rna-CIEBOVp6;Dbxref=GenBank:YP_003815430.1,GeneID:9487537;Name=YP_003815430.1;gbkey=CDS;gene=VP24;locus_tag=CIEBOVp6;product=membrane-associated protein;protein_id=YP_003815430.1
+NC_014372.1	RefSeq	regulatory_region	9873	9884	.	+	.	ID=id-CIEBOVp6;Parent=gene-CIEBOVp6;Dbxref=GeneID:9487537;Note=putative transcription start signal;gbkey=regulatory;gene=VP24;locus_tag=CIEBOVp6;regulatory_class=other
+NC_014372.1	RefSeq	polyA_signal_sequence	11493	11503	.	+	.	ID=id-CIEBOVp6-2;Parent=gene-CIEBOVp6;Dbxref=GeneID:9487537;Note=putative;gbkey=regulatory;gene=VP24;locus_tag=CIEBOVp6;regulatory_class=polyA_signal_sequence
+NC_014372.1	RefSeq	gene	11486	18461	.	+	.	ID=gene-CIEBOVp7;Dbxref=GeneID:9487538;Name=L;gbkey=Gene;gene=L;gene_biotype=protein_coding;locus_tag=CIEBOVp7
+NC_014372.1	RefSeq	mRNA	11486	18461	.	+	.	ID=rna-CIEBOVp7;Parent=gene-CIEBOVp7;Dbxref=GeneID:9487538;gbkey=mRNA;gene=L;locus_tag=CIEBOVp7;product=polymerase
+NC_014372.1	RefSeq	exon	11486	18461	.	+	.	ID=exon-CIEBOVp7-1;Parent=rna-CIEBOVp7;Dbxref=GeneID:9487538;gbkey=mRNA;gene=L;locus_tag=CIEBOVp7;product=polymerase
+NC_014372.1	RefSeq	CDS	11566	18198	.	+	0	ID=cds-YP_003815431.1;Parent=rna-CIEBOVp7;Dbxref=GenBank:YP_003815431.1,GeneID:9487538;Name=YP_003815431.1;Note=synthesis of viral RNAs%3B transcriptional RNA editing;gbkey=CDS;gene=L;locus_tag=CIEBOVp7;product=RNA-dependent RNA polymerase;protein_id=YP_003815431.1
+NC_014372.1	RefSeq	regulatory_region	11486	11497	.	+	.	ID=id-CIEBOVp7;Parent=gene-CIEBOVp7;Dbxref=GeneID:9487538;Note=putative transcription start signal;gbkey=regulatory;gene=L;locus_tag=CIEBOVp7;regulatory_class=other
+NC_014372.1	RefSeq	polyA_signal_sequence	18451	18461	.	+	.	ID=id-CIEBOVp7-2;Parent=gene-CIEBOVp7;Dbxref=GeneID:9487538;Note=putative;gbkey=regulatory;gene=L;locus_tag=CIEBOVp7;regulatory_class=polyA_signal_sequence
+NC_014372.1	RefSeq	three_prime_UTR	18462	18935	.	+	.	ID=id-NC_014372.1:18462..18935;Note=trailer region;function=regulation or initiation of RNA replication;gbkey=3'UTR
+###

@@ -1,0 +1,367 @@
+{
+  "assemblies": [
+    {
+      "name": "Bombali_Virus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Bombali_Virus-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Bombali_Virus.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Bombali_Virus.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Bundibugyo_Virus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Bundibugyo_Virus-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Bundibugyo_Virus.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Bundibugyo_Virus.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Reston_Virus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Reston_Virus-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Reston_Virus.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Reston_Virus.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Sudan_Virus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Sudan_Virus-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Sudan_Virus.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Sudan_Virus.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Tai_Forest_Virus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Tai_Forest_Virus-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Tai_Forest_Virus.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Tai_Forest_Virus.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "Zaire_Ebolavirus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Zaire_Ebolavirus-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "Zaire_Ebolavirus.fa",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "Zaire_Ebolavirus.fa.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "Bombali_Virus_sorted.gff",
+      "name": "Bombali_Virus_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Bombali_Virus_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Bombali_Virus_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Bombali_Virus"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Bundibugyo_Virus_sorted.gff",
+      "name": "Bundibugyo_Virus_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Bundibugyo_Virus_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Bundibugyo_Virus_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Bundibugyo_Virus"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Reston_Virus_sorted.gff",
+      "name": "Reston_Virus_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Reston_Virus_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Reston_Virus_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Reston_Virus"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Sudan_Virus_sorted.gff",
+      "name": "Sudan_Virus_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Sudan_Virus_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Sudan_Virus_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Sudan_Virus"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Tai_Forest_Virus_sorted.gff",
+      "name": "Tai_Forest_Virus_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Tai_Forest_Virus_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Tai_Forest_Virus_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Tai_Forest_Virus"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Zaire_Ebolavirus_sorted.gff",
+      "name": "Zaire_Ebolavirus_sorted.gff",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "Zaire_Ebolavirus_sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "Zaire_Ebolavirus_sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "Zaire_Ebolavirus"
+      ]
+    }
+  ],
+  "aggregateTextSearchAdapters": [
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "Bombali_Virus-index",
+      "ixFilePath": {
+        "uri": "trix/Bombali_Virus.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/Bombali_Virus.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/Bombali_Virus_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Bombali_Virus"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "Bundibugyo_Virus-index",
+      "ixFilePath": {
+        "uri": "trix/Bundibugyo_Virus.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/Bundibugyo_Virus.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/Bundibugyo_Virus_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Bundibugyo_Virus"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "Reston_Virus-index",
+      "ixFilePath": {
+        "uri": "trix/Reston_Virus.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/Reston_Virus.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/Reston_Virus_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Reston_Virus"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "Sudan_Virus-index",
+      "ixFilePath": {
+        "uri": "trix/Sudan_Virus.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/Sudan_Virus.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/Sudan_Virus_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Sudan_Virus"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "Tai_Forest_Virus-index",
+      "ixFilePath": {
+        "uri": "trix/Tai_Forest_Virus.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/Tai_Forest_Virus.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/Tai_Forest_Virus_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Tai_Forest_Virus"
+      ]
+    },
+    {
+      "type": "TrixTextSearchAdapter",
+      "textSearchAdapterId": "Zaire_Ebolavirus-index",
+      "ixFilePath": {
+        "uri": "trix/Zaire_Ebolavirus.ix",
+        "locationType": "UriLocation"
+      },
+      "ixxFilePath": {
+        "uri": "trix/Zaire_Ebolavirus.ixx",
+        "locationType": "UriLocation"
+      },
+      "metaFilePath": {
+        "uri": "trix/Zaire_Ebolavirus_meta.json",
+        "locationType": "UriLocation"
+      },
+      "assemblyNames": [
+        "Zaire_Ebolavirus"
+      ]
+    }
+  ]
+}
