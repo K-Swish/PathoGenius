@@ -146,6 +146,7 @@ To open tabular genome/proteome analysis (CSV files), multi sequence alignments 
 For these, simply go to "ADD" --> "Spreadsheet view" and load in your csv file. I have provided two in https://github.com/K-Swish/PathoGenius/tree/main/downloadables:
 1. ebov_gp_regions.csv
 2. percent_identity_matrix_nuc.csv
+
 The former is an alignment of the ebolaviruses glycoproteins (GPs) which are the only cytosolcially exposed protein on their capsid's surface! It lists the entropy for each AA space in the aslignment, if the average entropy of the 3 nearest AA in that region is low or high (conserved or not), and if it is exposed to the cytosol (not the whole GP is). Use this to identify regions of theraputic interest!
 The latter is a percent identity matrix comparing each ebolavirus genome with themselves.
 
