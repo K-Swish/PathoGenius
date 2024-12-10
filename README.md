@@ -138,5 +138,22 @@ jbrowse text-index --out $APACHE_ROOT/jbrowse2
 Now that you've scrolled all the way down here, launch JBrowse2 vis your local Apache2 server! For local hosting, the url will be http://localhost:8080/ (Mac) or http://XX.XXX.XXX.XX:8080/ (Linux/WLS/AWS), where Xs are replaced with the appropriate IP address from the WSL steps below.
 
 ## Configuration
+Congrats, you have a functioning JBrowse2 instance! Your JBrowse2 instance will be empty when you start. Do not fret! Click on "Linear Genome View," and select whichever annotated and indexted Ebolavirus genome you want to look at first. Then select "OPEN TRACK SELECTOR" and select the .gff track. Voila!
 
-Your JBrowse2 instance will be empty when you start. Do not fret!
+To open tabular genome/proteome analysis (CSV files), multi sequence alignments (MSAs), phylogenetic/phyloproteomic trees (Newick Trees), 3D Protein structures (.cif files) start by going to "TOOLS" --> "Plugin store" and download the "MsaView" and "Protein3d" plugins. 
+
+### Tabular genome/proteome analysis (CSV files)
+For these, simply go to "ADD" --> "Spreadsheet view" and load in your csv file. I have provided two in https://github.com/K-Swish/PathoGenius/tree/main/downloadables:
+1. ebov_gp_regions.csv
+2. percent_identity_matrix_nuc.csv
+The former is an alignment of the ebolaviruses glycoproteins (GPs) which are the only cytosolcially exposed protein on their capsid's surface! It lists the entropy for each AA space in the aslignment, if the average entropy of the 3 nearest AA in that region is low or high (conserved or not), and if it is exposed to the cytosol (not the whole GP is). Use this to identify regions of theraputic interest!
+The latter is a percent identity matrix comparing each ebolavirus genome with themselves.
+
+### Multi sequence alignments (MSAs) and Phylogenetic/phyloproteomic trees (Newick Trees)
+For these, go to "ADD" --> "Multiple sequence alignment view" and select a tree and MSA file. I have given you two pairs:
+1. ebov_genomes_msa_clustral.txt and ebov_genomes_newick_tree.txt
+2. ebov_gp_msa_clustral.txt and ebov_gp_newick_tree.txt
+These are MSAs for the viral genomes and for specifically their GPs respectively.
+
+### 3D Protein structures
+These are tricky, sorry. Hover over any coding seuqence in a linear genome view. Right click and select "Launch protein view". Select "OPEN FILE MANUALLY" and imput either the Zaire ebolavirus GP (Zaire_GP.cif) or the Bundibugyo virus GP (Bundibugyo_GP.cif), and click "LAUNCH 3-D PROTEIN STRUCTURE VIEW". Click the wrench on the right sidebar, and select the already-visible "Apply" button under "Download Structure". Now under "State Tree" (the graph-shaped item on the left sidebar), click "Assembly" --> "Apply Action" --> "3D Representation" and click the new "Apply" button". There you go! You can also now use "Quick Styles" on the right to change the structure's representation, but you're done!
