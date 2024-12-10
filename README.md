@@ -153,6 +153,7 @@ The latter is a percent identity matrix comparing each ebolavirus genome with th
 For these, go to "ADD" --> "Multiple sequence alignment view" and select a tree and MSA file. I have given you two pairs:
 1. ebov_genomes_msa_clustral.txt and ebov_genomes_newick_tree.txt
 2. ebov_gp_msa_clustral.txt and ebov_gp_newick_tree.txt
+
 These are MSAs for the viral genomes and for specifically their GPs respectively.
 
 ### 3D Protein structures
