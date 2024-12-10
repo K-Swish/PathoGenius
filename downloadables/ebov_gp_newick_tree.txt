@@ -1,0 +1,13 @@
+(
+(
+Bombali_virus_Envelope_glycoprotein:0.20290,
+Zaire_ebolavirus_Envelope_glycoprotein:0.16608)
+:0.01113,
+(
+Bundibugyo_virus_Envelope_glycoprotein:0.12550,
+Tai_forest_virus_Envelope_glycoprotein:0.13929)
+:0.03634,
+(
+Reston_virus_Envelope_glycoprotein:0.18885,
+Sudan_virus_Envelope_glycoprotein:0.20966)
+:0.05069);

@@ -1,0 +1,98 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+Bombali_virus_Envelope_glycoprotein         -----MILQVPEKRHQRTVLFIWLVILFQRAVSVPLGVIHNSTLQVSDIDKLVCHDKLTS	55
+Zaire_ebolavirus_Envelope_glycoprotein      -MGVTGILQLPRDRFKRTSFFLWVIILFQRTFSIPLGVIHNSTLQVNDVDKLVCRDKLSS	59
+Bundibugyo_virus_Envelope_glycoprotein      -MVTSGILQLPRERFRKTSFFVWVIILFHKVFPIPLGVVHNNTLQVSDIDKLVCRDKLSS	59
+Tai_forest_virus_Envelope_glycoprotein      -MGASGILQLPRERFRKTSFFVWVIILFHKVFSIPLGVVHNNTLQVSDIDKFVCRDKLSS	59
+Reston_virus_Envelope_glycoprotein          MGSGYQLLQLPRERFRKTSFLVWVIILFQRAISMPLGIVTNSTLKATEIDQLVCRDKLSS	60
+Sudan_virus_Envelope_glycoprotein           -MEGLSLLQLPRDKFRKSSFFVWVIILFQKAFSMPLGVVTNSTLEVTEIDQLVCKDHLAS	59
+                                                  :**:*..:.::: :::*::***::.. :***:: *.**:..::*::**:*:*:*
+
+Bombali_virus_Envelope_glycoprotein         TNQLRSIGLNLEGNGIATDVPSATKRWGFRAGVPPKVVGYEAGEWAENCYNLEIKKPDGS	115
+Zaire_ebolavirus_Envelope_glycoprotein      TNQLRSVGLNLEGNGVATDVPSATKRWGFRSGVPPKVVNYEAGEWAENCYNLEIKKPDGS	119
+Bundibugyo_virus_Envelope_glycoprotein      TSQLKSVGLNLEGNGVATDVPTATKRWGFRAGVPPKVVNYEAGEWAENCYNLDIKKADGS	119
+Tai_forest_virus_Envelope_glycoprotein      TSQLKSVGLNLEGNGVATDVPTATKRWGFRAGVPPKVVNYEAGEWAENCYNLAIKKVDGS	119
+Reston_virus_Envelope_glycoprotein          TSQLKSVGLNLEGNGIATDVPSATKRWGFRSGVPPKVVSYEAGEWAENCYNLEIKKSDGS	120
+Sudan_virus_Envelope_glycoprotein           TDQLKSVGLNLEGSGVSTDIPSATKRWGFRSGVPPQVVSYEAGEWAENCYNLEIKKPDGS	119
+                                            *.**:*:******.*::**:*:********:****:**.************* *** ***
+
+Bombali_virus_Envelope_glycoprotein         ECLPMAPEGIRGFPRCRYVHKVSGTGSCESGFAFHKEGAFFLYDRLASTIIYRGTTFAEG	175
+Zaire_ebolavirus_Envelope_glycoprotein      ECLPAAPDGIRGFPRCRYVHKVSGTGPCAGDFAFHKEGAFFLYDRLASTVIYRGTTFAEG	179
+Bundibugyo_virus_Envelope_glycoprotein      ECLPEAPEGVRGFPRCRYVHKVSGTGPCPEGYAFHKEGAFFLYDRLASTIIYRSTTFSEG	179
+Tai_forest_virus_Envelope_glycoprotein      ECLPEAPEGVRDFPRCRYVHKVSGTGPCPGGLAFHKEGAFFLYDRLASTIIYRGTTFAEG	179
+Reston_virus_Envelope_glycoprotein          ECLPLPPDGVRGFPRCRYVHKVQGTGPCPGDLAFHKNGAFFLYDRLASTVIYRGTTFAEG	180
+Sudan_virus_Envelope_glycoprotein           ECLPPPPDGVRGFPRCRYVHKAQGTGPCPGDYAFHKDGAFFLYDRLASTVIYRGVNFAEG	179
+                                            ****  *:*:*.*********..*** *  . ****:************:***...*:**
+
+Bombali_virus_Envelope_glycoprotein         VVAFIILPKAEKNFLQPPLTQGPTNTTNDPSSMYHSTTLEYETTRFGTNRSAFWFKVDNL	235
+Zaire_ebolavirus_Envelope_glycoprotein      VVAFLILPQAKKDFFSSHPLREPVNATEDPSSGYYSTTIRYQATGFGTNETEYLFEVDNL	239
+Bundibugyo_virus_Envelope_glycoprotein      VVAFLILPETKKDFFQSPPLHEPANMTTDPSSYYHTVTLNYVADNFGTNMTNFLFQVDHL	239
+Tai_forest_virus_Envelope_glycoprotein      VIAFLILPKARKDFFQSPPLHEPANMTTDPSSYYHTTTINYVVDNFGTNTTEFLFQVDHL	239
+Reston_virus_Envelope_glycoprotein          VVAFLILSEPKKHFWKATPAHEPVNTTDDSTSYYMTLTLSYEMSNFGGNESNTLFKVDNH	240
+Sudan_virus_Envelope_glycoprotein           VIAFLILAKPKETFLQSPPIREAANYTENTSSYYATSYLEYEIENFGAQHSTTLFKINNN	239
+                                            *:**:** : .: * .    :  .* * : :* * :  : *    ** : :   *:::: 
+
+Bombali_virus_Envelope_glycoprotein         TFVQLESRFTPQFLVELNETIYIEGKRSNTTGRLIWQVNSRVDTDVGEWAFWENKKNLKK	295
+Zaire_ebolavirus_Envelope_glycoprotein      TYVQLESRFTPQFLLQLNETIYTSGKRSNTTGKLIWKVNPEIDTTIGEWAFWETKKNLTR	299
+Bundibugyo_virus_Envelope_glycoprotein      TYVQLEPRFTPQFLVQLNETIYTNGRRSNTTGTLIWKVNPTVDTGVGEWAFWENKKNFTK	299
+Tai_forest_virus_Envelope_glycoprotein      TYVQLEARFTPQFLVLLNETIYSDNRRSNTTGKLIWKINPTVDTSMGEWAFWENKKNFTK	299
+Reston_virus_Envelope_glycoprotein          TYVQLDRPHTPQFLVQLNETLRRNNRLSNSTGRLTWTLDPKIEPDVGEWAFWETKKNFSQ	300
+Sudan_virus_Envelope_glycoprotein           TFVLLDRPHTPQFLFQLNDTIQLHQQLSNTTGKLIWTLDANINADIGEWAFWENKKNLSE	299
+                                            *:* *:  .*****. **:*:    : **:** * * ::  ::  :*******.***:..
+
+Bombali_virus_Envelope_glycoprotein         SFPREELSLAAVPRAADSEHDTHPPEHTPGPDSNPTINDNTELVTEDPAHLVQLQRQGRK	355
+Zaire_ebolavirus_Envelope_glycoprotein      KIRSEELSFTVVSNGAKNISGQSPARTSSDPGTNTTTEDHKIMASENSSAMVQVHSQGRE	359
+Bundibugyo_virus_Envelope_glycoprotein      TLSSEELSVIFVPRAQDPGSNQKTKVTPTSFANNQTSKNHEDLVPEDPASVVQVRDLQRE	359
+Tai_forest_virus_Envelope_glycoprotein      TLSSEELSFVPVPETQNQVLDTTATVSPPISAHNHAGEDHKELVSEDSTPVVQMQNIKGK	359
+Reston_virus_Envelope_glycoprotein          QLHGENLHFQILSTHTNNSSDQSPAGTVQGKISYHPPANNSELVPTDSPPVVSVLTAGRT	360
+Sudan_virus_Envelope_glycoprotein           QLRGEELSFETLSLNETEDDDATSSRTTKGRISDRATRKYSDLVPKDSPGMVSLHVPEGE	359
+                                             :  *:* .  :        .                 .   :.  :   :*.:      
+
+Bombali_virus_Envelope_glycoprotein         EILPTPIPQAIEREP-----PAAQHDNPRNSPT---PPSPIESDITDSTQAEDLTHADDP	407
+Zaire_ebolavirus_Envelope_glycoprotein      AAVSHLTTLATISTS-----PQSLTTKPGPDNS-THNTPVYKLDISEATQVEQHHRRTDN	413
+Bundibugyo_virus_Envelope_glycoprotein      NTVPTPPP-------------DTVPTTLIPDTMEEQTTSHYEPPNISRN-HQERNNTAHP	405
+Tai_forest_virus_Envelope_glycoprotein      DTMPTTVT-------------GVPTTTPSPFPINARNTDHTKSFIGLEG-PQEDHSTTQP	405
+Reston_virus_Envelope_glycoprotein          EEMSTQGLTNGETITGFTANPMTTTIAPSPTM---------TSEVDNNVPSEQPNNTASI	411
+Sudan_virus_Envelope_glycoprotein           TTLPSQNSTEGRRVDVNTQETITETTATIIGTN---GNNMQISTIGTGLSSSQILSSSPT	416
+                                              :                                                .:       
+
+Bombali_virus_Envelope_glycoprotein         ST-IN-----SATEESLPEVGGITQVPRDPEDPRITLSTPPT-SQPEQPSDNTMTPGQIH	460
+Zaire_ebolavirus_Envelope_glycoprotein      DS-TASDTPSATTAAGPPKAENTNTSKSTDFLDPATTTSPQNHS--------ETAGNNNT	464
+Bundibugyo_virus_Envelope_glycoprotein      ET-LANNPPDNTTPSTPPQDGERTSSHTTPSPRPVPTSTIHPTTRETHIPTTMTTSHDTD	464
+Tai_forest_virus_Envelope_glycoprotein      AK-TTSQPTNSTESTTLNPTSEPSSRGTGPSSPTVPNTTESHAELGKTTPTTLPEQHTAA	464
+Reston_virus_Envelope_glycoprotein          EDSPPSASNETIYHSEMDPIQGSNNSAQSPQTKTTPAPTTSPMTQDPQETANSS------	465
+Sudan_virus_Envelope_glycoprotein           MAPSPETQTSTTYTPKLPVMTTEES--TTPPRNSPGSTTEAPTLTTPENITTAV------	468
+                                                                                  :                     
+
+Bombali_virus_Envelope_glycoprotein         SESAAPMGERSIDGPGLLTNTLAGVARLITGAGRAKRESPEIRGAKCNPNLHYWTTHEES	520
+Zaire_ebolavirus_Envelope_glycoprotein      HHQDTGEESASSGKLGLITNTIAGVAGLITGGRRTRREAIVNAQPKCNPNLHYWTTQDEG	524
+Bundibugyo_virus_Envelope_glycoprotein      SNRPNPIDISESTEPGPLTNTTRGAANLLTGSRRTRREITLRTQAKCNPNLHYWTTQDEG	524
+Tai_forest_virus_Envelope_glycoprotein      SAIPRAVHPDELSGPGFLTNTIRGVTNLLTGSRRKRRDVTPNTQPKCNPNLHYWTALDEG	524
+Reston_virus_Envelope_glycoprotein          KPGTSPGSAAGPSQPGLTINTVSKVADSLSPTRKQKRSVRQNTANKCNPDLYYWTAVDEG	525
+Sudan_virus_Envelope_glycoprotein           K----TVWPQESTSNGLITSTVTGILGSLGLRKRSRRQVNTRATGKCNPNLHYWTAQEQH	524
+                                                           *   .*       :    : :*.       ****:*:***: :: 
+
+Bombali_virus_Envelope_glycoprotein         AAAGLAWIPYFGPAAEGIYTEGLMQNQNELICGLRQLANETTQALQLFLRSTTELRTFSI	580
+Zaire_ebolavirus_Envelope_glycoprotein      AAIGLAWIPYFGPAAEGIYTEGLMHNQNGLICGLRQLANETTQALQLFLRATTELRTFSI	584
+Bundibugyo_virus_Envelope_glycoprotein      AAIGLAWIPYFGPAAEGIYTEGIMHNQNGLICGLRQLANETTQALQLFLRATTELRTFSI	584
+Tai_forest_virus_Envelope_glycoprotein      AAIGLAWIPYFGPAAEGIYTEGIMENQNGLICGLRQLANETTQALQLFLRATTELRTFSI	584
+Reston_virus_Envelope_glycoprotein          AAVGLAWIPYFGPAAEGIYIEGVMHNQNGLICGLRQLANETTQALQLFLRATTELRTYSL	585
+Sudan_virus_Envelope_glycoprotein           NAAGIAWIPYFGPGAEGIYTEGLMHNQNALVCGLRQLANETTQALQLFLRATTELRTYTI	584
+                                             * *:********.***** **:*.*** *:*******************:******:::
+
+Bombali_virus_Envelope_glycoprotein         LNRKAIDFLLQRWGGTCRILGPDCCIEPHDWTKNITDRIDQIIHDFVDKPLPDQSNNDNW	640
+Zaire_ebolavirus_Envelope_glycoprotein      LNRKAIDFLLQRWGGTCHILGPDCCIEPHDWTKNITDKIDQIIHDFVDKTLPDQGDNDNW	644
+Bundibugyo_virus_Envelope_glycoprotein      LNRKAIDFLLQRWGGTCHILGPDCCIEPHDWTKNITDKIDQIIHDFIDKPLPDQTDNDNW	644
+Tai_forest_virus_Envelope_glycoprotein      LNRKAIDFLLQRWGGTCHILGPDCCIEPQDWTKNITDKIDQIIHDFVDNNLPNQNDGSNW	644
+Reston_virus_Envelope_glycoprotein          LNRKAIDFLLQRWGGTCRILGPSCCIEPHDWTKNITDEINQIKHDFIDNPLPDHGDDLNL	645
+Sudan_virus_Envelope_glycoprotein           LNRKAIDFLLRRWGGTCRILGPDCCIEPHDWTKNITDKINQIIHDFIDNPLPNQDNDDNW	644
+                                            **********:******:****.*****:********.*:** ***:*: **:: :. * 
+
+Bombali_virus_Envelope_glycoprotein         WTGWRQWIPAGIGVVGVIAAFIALICICKIIC	672
+Zaire_ebolavirus_Envelope_glycoprotein      WTGWRQWIPAGIGVTGVIIAVIALFCICKFVF	676
+Bundibugyo_virus_Envelope_glycoprotein      WTGWRQWVPAGIGITGVIIAVIALLCICKFLL	676
+Tai_forest_virus_Envelope_glycoprotein      WTGWKQWVPAGIGITGVIIAIIALLCICKFML	676
+Reston_virus_Envelope_glycoprotein          WTGWRQWIPAGIGIIGVIIAIIALLCICKILC	677
+Sudan_virus_Envelope_glycoprotein           WTGWRQWIPAGIGITGIIIAIIALLCVCKLLC	676
+                                            ****:**:*****: *:* *.***:*:**:: 

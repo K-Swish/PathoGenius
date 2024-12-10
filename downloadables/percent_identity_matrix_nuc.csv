@@ -1,0 +1,7 @@
+,Bombali_virus_Envelope_glycoprotein,Zaire_ebolavirus_Envelope_glycoprotein,Bundibugyo_virus_Envelope_glycoprotein,Tai_forest_virus_Envelope_glycoprotein,Reston_virus_Envelope_glycoprotein,Sudan_virus_Envelope_glycoprotein
+Bombali_virus_Envelope_glycoprotein,100.0,63.1,62.44,60.33,55.15,52.73
+Zaire_ebolavirus_Envelope_glycoprotein,63.1,100.0,66.57,64.92,57.85,56.04
+Bundibugyo_virus_Envelope_glycoprotein,62.44,66.57,100.0,73.52,59.61,57.03
+Tai_forest_virus_Envelope_glycoprotein,60.33,64.92,73.52,100.0,58.7,57.19
+Reston_virus_Envelope_glycoprotein,55.15,57.85,59.61,58.7,100.0,60.15
+Sudan_virus_Envelope_glycoprotein,52.73,56.04,57.03,57.19,60.15,100.0
