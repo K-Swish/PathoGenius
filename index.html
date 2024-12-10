@@ -127,7 +127,7 @@
 
 <header>
     <h1>PathoGenius</h1>
-    <p>Filoviridae Ebolavirus Genome Analysis and Database Installer</p>
+    <p>Filoviridae Ebolavirus Genome/Proteome Analysis and Database Installation</p>
 </header>
 
 <nav>
@@ -150,9 +150,23 @@
     </section>
 
     <section id="installer" class="section">
-        <h2>Database Installer</h2>
+        <h2>Install the Database</h2>
         <p>Set up your local Ebolavirus database with ease using our how-to! Follow the instructions to get started.</p>
         <button onclick="window.location.href='https://github.com/K-Swish/PathoGenius/blob/main/README.md'">Download Installer</button>
+    </section>
+
+    <section id="mission" class="section">
+        <h2>Our Mission</h2>
+        <p>In December of 2014, a case of the Zaire Ebolavirus occurred in Guinea. Within only months, it had spread across most of Western Africa, Europe, and even across the Atlantic to North America. Between that December and June of 2016, 28,600 cases and 11,325 deaths had been recorded by the WHO. The virus spread fast with an over 50% mortality rate in many regions, a rate unheard of for most viruses that spread so quickly. Measures such as contact tracing, quarantining, and screening prevented the spread of the disease in this outbreak, but a vaccine only became available 3 years later in 2019. Should a new variant of such a powerful disease start to spread, it is paramount that the search for a vaccine has already begun.</p>
+        <p>Because of this, I’ve made PathoGenius, a Filoviridae Ebolavirus genome and proteome analysis tool based on JBrowse2, to study how the virus evolves, how it invades peoples’ cells, and what parts of that system we can target.</p>
+        <h3>How it Evolves:</h3>
+        <p>Firstly, I wanted to study how it evolves (and how it doesn’t) in order to help people predict mutations in future variants. This first involved making genome and protein MSAs for the seven species. The protein of interest was the glycoprotein (GP), a protein conserved in all species that it uses to enter into cells, and the only protein of the viral capsid that is exposed. It is also the protein that small molecule therapeutics and vaccines target! I also made a percent identity matrix comparing each of the viral species, as well as made available annotated sequences of all 7 species’ genomes. All of these can be used to study how the viruses and their main protein evolve.</p>
+        <h3>How it Invades:</h3>
+        <p>I also added a structural viewer to make sense of conserved amino acids (AAs) in the glycoproteins! Only 2 of the 7 are available as PDB structures (Zaire and Bundibugyo), but they offer a way to connect the linear/2D data to an actual “physical” structure, which I always find valuable in research.</p>
+        <h3>How to Target It:</h3>
+        <p>Data-wise, this is my main outcome for this project. I wanted to show what parts of the virus can be easily and reliably targeted by therapeutics, without fear of variants escaping the drugs or immunizations. I performed an MSA on the 7 ebolavirus GPs and calculated the entropy of each residue position. This allowed me to identify low entropy regions between the species, where a residue and its adjacent residues have an average entropy below 0.9. This lets us see which regions of the GP are hypo-variable. I then used the 3D structures to identify regions of the GP that are exposed and can be accessed by therapeutics once the capsid is fully made (e.g., AA180-290). Lastly, I made a column for residues that have low entropy and are exposed. By filtering for these regions, people can identify parts of ebolaviruses that are shared between species, unlikely to evolve, and are exposed, thereby making them more reliable and accessible therapeutic targets.</p>
+        <p>With all of this, I hope to aid scientists in designing the next series of ebolavirus therapeutics, as well as inspire those new to the field to pursue it further.</p>
+        <p><strong>– Jacob Spiegel</strong></p>
     </section>
 
     <section id="contact" class="section">
